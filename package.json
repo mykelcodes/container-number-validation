@@ -1,0 +1,28 @@
+{
+  "name": "@myelcodes/container-number-validation",
+  "version": "0.0.1",
+  "description": "A tiny package to validate container numbers according to ISO 6346 standard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mykelcodes/container-number-validation.git"
+  },
+  "keywords": [
+    "container",
+    "validation",
+    "ISO",
+    "6346"
+  ],
+  "author": "Michael Olawale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mykelcodes/container-number-validation/issues"
+  },
+  "homepage": "https://github.com/mykelcodes/container-number-validation#readme",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
