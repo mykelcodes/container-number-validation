@@ -1,5 +1,5 @@
 {
-  "name": "@myelcodes/container-number-validation",
+  "name": "@mykelcodes/container-number-validation",
   "version": "0.0.1",
   "description": "A tiny package to validate container numbers according to ISO 6346 standard",
   "main": "index.js",
