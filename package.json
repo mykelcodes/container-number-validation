@@ -1,8 +1,7 @@
 {
   "name": "@mykelcodes/container-number-validation",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "A tiny package to validate container numbers according to ISO 6346 standard",
-  "main": "index.js",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
@@ -11,7 +10,8 @@
     "prepublishOnly": "npm test && npm run format"
   },
   "files": [
-    "lib/**/*"
+    "index.js",
+    "index.d.ts"
   ],
   "repository": {
     "type": "git",
@@ -23,7 +23,10 @@
     "ISO",
     "6346"
   ],
-  "author": "Michael Olawale",
+  "author": {
+    "name": "Michael Olawale",
+    "email": "tech@mykelcodes.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mykelcodes/container-number-validation/issues"
